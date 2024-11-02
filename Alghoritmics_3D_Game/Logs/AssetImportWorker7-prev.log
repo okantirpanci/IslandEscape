@@ -1,0 +1,1115 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.12f1 (7defd84cdab8) revision 8253400'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/fcaka/Desktop/Github/IslandEscape/Alghoritmics_3D_Game
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+51441
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/fcaka/Desktop/Github/IslandEscape/Alghoritmics_3D_Game
+C:/Users/fcaka/Desktop/Github/IslandEscape/Alghoritmics_3D_Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1620]  Target information:
+
+Player connection [1620]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2663950620 [EditorId] 2663950620 [Version] 1048832 [Id] WindowsEditor(7,Furkan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1620] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1620] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.12f1 (7defd84cdab8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fcaka/Desktop/Github/IslandEscape/Alghoritmics_3D_Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     10195 MB
+    Driver:   32.0.11037.4004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006252 seconds.
+- Loaded All Assemblies, in  1.069 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.355 seconds
+Domain Reload Profiling: 2409ms
+	BeginReloadAssembly (396ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (360ms)
+				TypeCache.ScanAssembly (333ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1356ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (266ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (362ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.897 seconds
+Refreshing native plugins compatible for Editor in 6.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.934 seconds
+Domain Reload Profiling: 5817ms
+	BeginReloadAssembly (1015ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1655ms)
+		LoadAssemblies (1283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (718ms)
+			TypeCache.Refresh (563ms)
+				TypeCache.ScanAssembly (455ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2935ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (35ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (1237ms)
+			ProcessInitializeOnLoadMethodAttributes (712ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 27.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6166 unused Assets / (5.0 MB). Loaded Objects now: 7003.
+Memory consumption went from 219.9 MB to 214.9 MB.
+Total: 91.687100 ms (FindLiveObjects: 3.118600 ms CreateObjectMapping: 1.540700 ms MarkObjects: 22.974700 ms  DeleteObjects: 64.042700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 956312.664300 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/37-Leopard delta rainy kick-Take2.fbx
+  artifactKey: Guid(923024f2f6bdb11468799e1b3a57fcbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/37-Leopard delta rainy kick-Take2.fbx using Guid(923024f2f6bdb11468799e1b3a57fcbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '76c7691c09f6cb74e9b617025d3818f5') in 0.6841984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/23-Leopard steel leg-Take3.fbx
+  artifactKey: Guid(a60cd385f13624e4290070099b1132c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/23-Leopard steel leg-Take3.fbx using Guid(a60cd385f13624e4290070099b1132c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '65ab37f18dcb35bf33cf1cd8db768a3f') in 0.3770391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/7-Massive uppercut charge-Take6.fbx
+  artifactKey: Guid(11a1b211ef911804e87d46e34fdaba55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/7-Massive uppercut charge-Take6.fbx using Guid(11a1b211ef911804e87d46e34fdaba55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6111729a346ea2997283d315b8b44be6') in 0.09081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bucket_01.prefab
+  artifactKey: Guid(9e90fd927a0027149810cfd45bf43861) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bucket_01.prefab using Guid(9e90fd927a0027149810cfd45bf43861) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7de42456ac74f40d3e2bb6b8dc8db7d7') in 0.0508223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/42-Leopard twist grip-Take2.fbx
+  artifactKey: Guid(81f8eb21f3dcfaa4f8ed897e8af65f28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/42-Leopard twist grip-Take2.fbx using Guid(81f8eb21f3dcfaa4f8ed897e8af65f28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '29d145b25232348f6603ae2d2b66a06d') in 0.0980011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Plank_02.prefab
+  artifactKey: Guid(7f1185878a04f5c47b8d0ae4f161d86e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Plank_02.prefab using Guid(7f1185878a04f5c47b8d0ae4f161d86e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b6364c1405487a95ea8242bedd1ac77d') in 0.051954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Materials and textures/albedo.xcf
+  artifactKey: Guid(ee66a0694b2298346ba3d446840bb02b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Materials and textures/albedo.xcf using Guid(ee66a0694b2298346ba3d446840bb02b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '06ebc38ebd2b7291d311243f650aee08') in 0.0343633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/9-Leopard arm strike-Take1.fbx
+  artifactKey: Guid(dbb2522f76f1deb45a3f74e0ed103309) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/9-Leopard arm strike-Take1.fbx using Guid(dbb2522f76f1deb45a3f74e0ed103309) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'caebc532476eabe12bfcd8b1700ba0d8') in 0.1075799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_02.prefab
+  artifactKey: Guid(c340967cf8ad4834b80fd1ab0a6c0058) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_02.prefab using Guid(c340967cf8ad4834b80fd1ab0a6c0058) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5564798cc8fdfb7894f94f38d0f20742') in 0.0631684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/21-Rainy kick-Take4.fbx
+  artifactKey: Guid(286f39ebc149b5442961e704d7fcf808) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/21-Rainy kick-Take4.fbx using Guid(286f39ebc149b5442961e704d7fcf808) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '343d1c176d417425a9e9323bfb523941') in 0.1569415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Diamond_01.prefab
+  artifactKey: Guid(2e359741011460e4599f30419439fe4a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Diamond_01.prefab using Guid(2e359741011460e4599f30419439fe4a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ad9531611698a86c70eb8cfbeadf04cb') in 0.0378289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/BananaTree_02.prefab
+  artifactKey: Guid(efeb7b024c14a9245bc7bf63ddcc7713) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/BananaTree_02.prefab using Guid(efeb7b024c14a9245bc7bf63ddcc7713) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b448810cb22cb3447995e492c0dc5812') in 0.0329809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'c743270a0d706447e3711ffd480e726a') in 0.121963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_16.prefab
+  artifactKey: Guid(7cd875412c7e061459113c34c3186616) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_16.prefab using Guid(7cd875412c7e061459113c34c3186616) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e0150e549913210ad1c71cb0e33ccf1f') in 0.0301214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/29-Chi kick-Take1.fbx
+  artifactKey: Guid(9258ba42ee049f04baac59159d8d8440) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/29-Chi kick-Take1.fbx using Guid(9258ba42ee049f04baac59159d8d8440) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '714f3faba4187081266080e3a06584b5') in 0.2087071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/CoralReef_05.prefab
+  artifactKey: Guid(ed82fe4dca0da3d468c5ddb42e830f30) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/CoralReef_05.prefab using Guid(ed82fe4dca0da3d468c5ddb42e830f30) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e059bff6bc28537dd2fe34c7708317fa') in 0.0550647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_01.prefab
+  artifactKey: Guid(3b35bbefbcd640947b6e91a43ab21400) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_01.prefab using Guid(3b35bbefbcd640947b6e91a43ab21400) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '1880bd511055d5a50225b511c06505f8') in 0.0216299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Wineglass_01.prefab
+  artifactKey: Guid(8931be3941be99a4ba98965b62a04a9d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Wineglass_01.prefab using Guid(8931be3941be99a4ba98965b62a04a9d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'cc45a69bae798e6b43662c5a9dcde7d7') in 0.0301662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/22-Leopard trampling-Take3.fbx
+  artifactKey: Guid(5b76cea5e5ad60d42978c9f518645bc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/22-Leopard trampling-Take3.fbx using Guid(5b76cea5e5ad60d42978c9f518645bc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e19ed4b696c29bc7b0466ff9d7e2cb75') in 0.1464368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Water_02.prefab
+  artifactKey: Guid(d0f9477802a40104a89ba4ec3bab3cef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Water_02.prefab using Guid(d0f9477802a40104a89ba4ec3bab3cef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '54e6a2bc0b88aacced4e3c60ad5b3cf7') in 0.0533793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/21-Rainy kick-Take4-no root.fbx
+  artifactKey: Guid(803e60f4dab899d4097f2d9bc47e9109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/21-Rainy kick-Take4-no root.fbx using Guid(803e60f4dab899d4097f2d9bc47e9109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '497255e342b773c35bbb4e804618419e') in 0.1443045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Grenade_03.prefab
+  artifactKey: Guid(173256217e5612d48b94bf12f7a853c6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Grenade_03.prefab using Guid(173256217e5612d48b94bf12f7a853c6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '1c826030c9133a89394b1e06398cabaf') in 0.0348644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b694d46d3417d69fd49a4a050da6b481') in 0.0635331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/20-Leopard flip-Take2-no root.fbx
+  artifactKey: Guid(1e775c87fb2e16649bd47c5cc48045be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/20-Leopard flip-Take2-no root.fbx using Guid(1e775c87fb2e16649bd47c5cc48045be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bceb5034e3f581885706a7a746bf77e0') in 0.0880492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Fog_02.prefab
+  artifactKey: Guid(50c3d6a84f22e98448be450fee2f001f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Fog_02.prefab using Guid(50c3d6a84f22e98448be450fee2f001f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '50cdf653e3b02c326f479e77e3249798') in 0.0680787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/19-Leopard flash-Take3-no root.fbx
+  artifactKey: Guid(6f93c972b0369184e80552167d601b64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/19-Leopard flash-Take3-no root.fbx using Guid(6f93c972b0369184e80552167d601b64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e4bb381b749fd153b54f855c9e31b55d') in 0.1225134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/2-Rainy fist-Take1-no root.fbx
+  artifactKey: Guid(96ba6de4723895443b0ff813032180b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/2-Rainy fist-Take1-no root.fbx using Guid(96ba6de4723895443b0ff813032180b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'c06ccdc2334c7a18c60cc846237a5bfb') in 0.1187759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Cannon.prefab
+  artifactKey: Guid(9461b3e5bbdaf4c4793ca450afe9a0b1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Cannon.prefab using Guid(9461b3e5bbdaf4c4793ca450afe9a0b1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ca0b234636e48d417401fab6f4cdee02') in 0.1171971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_03.prefab
+  artifactKey: Guid(9188afb691effe14c9b1b464d0b16442) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_03.prefab using Guid(9188afb691effe14c9b1b464d0b16442) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8b675a776e9cb8bd67de585fb1826602') in 0.0852069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/34-Leopard air kick-Take5-no root.fbx
+  artifactKey: Guid(a1c5610499954264589ec5d72582ce41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/34-Leopard air kick-Take5-no root.fbx using Guid(a1c5610499954264589ec5d72582ce41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '1163152f2aaf3d7430aae3538e06337e') in 0.0861339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/14-Splashy backpunch-Take1-no root.fbx
+  artifactKey: Guid(5fa2a18f23e72554680ec25f097ca3c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/14-Splashy backpunch-Take1-no root.fbx using Guid(5fa2a18f23e72554680ec25f097ca3c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5f9a5eb689f0af8116d161a8abef8410') in 0.0867893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/20-Leopard flip-Take3-no root.fbx
+  artifactKey: Guid(13cee732c1eaef841b531afd8f6634e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/20-Leopard flip-Take3-no root.fbx using Guid(13cee732c1eaef841b531afd8f6634e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '31ea36bddf01e7d3b84e08e8f6cb6683') in 0.162631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/41-Leopard grip-no root.fbx
+  artifactKey: Guid(32045896d2e6c424fba048b023b7e13e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/41-Leopard grip-no root.fbx using Guid(32045896d2e6c424fba048b023b7e13e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '96c1a9bbcaceca5114e8e06ab3cc9036') in 0.1368915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/8-Double saber strike-Take2-no root.fbx
+  artifactKey: Guid(4b351161f778df947b5e4a43e299bd79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/8-Double saber strike-Take2-no root.fbx using Guid(4b351161f778df947b5e4a43e299bd79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '91f0280e971df7ad58559d1f46e2b5f1') in 0.1841049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/7-Massive uppercut charge-Take4-no root.fbx
+  artifactKey: Guid(062ac1c2e66fcf644a95782e897a1d07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/7-Massive uppercut charge-Take4-no root.fbx using Guid(062ac1c2e66fcf644a95782e897a1d07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ed5fa919ff7c4aa873828071cca9186e') in 0.1088572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/30-Against deluge-Take3.fbx
+  artifactKey: Guid(ff2ec37cd5d859c46b38730761fff263) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/30-Against deluge-Take3.fbx using Guid(ff2ec37cd5d859c46b38730761fff263) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e8642f05c3943afecc75dc63296c5380') in 0.0922283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground001_AO.png
+  artifactKey: Guid(f61afc3a09f13a14ea0aa943ae0e7393) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground001_AO.png using Guid(f61afc3a09f13a14ea0aa943ae0e7393) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '60b2a367cc377fe70fd4488744d38f5c') in 0.1542989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Materials/Sky.mat
+  artifactKey: Guid(2c3a0f34dabbd334e9a24a88ef8fed02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Materials/Sky.mat using Guid(2c3a0f34dabbd334e9a24a88ef8fed02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8dc507e84ac67eef994fe4a17bc19a49') in 0.0837191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/9-Leopard arm strike-Take3-no root.fbx
+  artifactKey: Guid(643d7a084fe0e924493f5d819df96c95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/9-Leopard arm strike-Take3-no root.fbx using Guid(643d7a084fe0e924493f5d819df96c95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '14b6f60aa40ae7ad0b937e5097f75f88') in 0.1080556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground002.tif
+  artifactKey: Guid(9d1f9244cef4eda4f94c4fb34de21a0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground002.tif using Guid(9d1f9244cef4eda4f94c4fb34de21a0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '01f3b07c740d310d841cf8a58e024ed6') in 0.111227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground002_AO.png
+  artifactKey: Guid(3020193ef203a1f41a9ffe949f477ee7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground002_AO.png using Guid(3020193ef203a1f41a9ffe949f477ee7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5244f5ac77bc8bf0031fdbca4e3413b0') in 0.0568743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Materials/Ground003.mat
+  artifactKey: Guid(390d6db216815e549abf435422d2bb79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Materials/Ground003.mat using Guid(390d6db216815e549abf435422d2bb79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e03d871c61adf270a739024daab2429a') in 0.2353386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground005.tif
+  artifactKey: Guid(58292f517ca2b2448beb5c13a11452ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground005.tif using Guid(58292f517ca2b2448beb5c13a11452ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '34af00087cf9199f1c52b95fc812ba3d') in 0.0514976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/GroundPatchCracked01.tif
+  artifactKey: Guid(48e7b7fead1e7c94298c74f5dd80c7e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/GroundPatchCracked01.tif using Guid(48e7b7fead1e7c94298c74f5dd80c7e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'aea7174ab8ecf8be8b25773eeb87a7a3') in 0.0427404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/2-Rainy fist-Take3-no root.fbx
+  artifactKey: Guid(f2de0585baad0a547bde3f9bf680aafd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/2-Rainy fist-Take3-no root.fbx using Guid(f2de0585baad0a547bde3f9bf680aafd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bab6ed4e671b5cad474e70f3ab5ef8ed') in 0.0824086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/29-Chi kick-Take1-no root.fbx
+  artifactKey: Guid(c22c0ba7cc763b540be698fbd4dd2e2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/29-Chi kick-Take1-no root.fbx using Guid(c22c0ba7cc763b540be698fbd4dd2e2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e4c34294e99730e97d07ca3cf0f58f29') in 0.1044772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Materials/TropicalEnvironment_Nature.mat
+  artifactKey: Guid(0e2ea6d1c621e6d4391c8d03e89c5cc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Materials/TropicalEnvironment_Nature.mat using Guid(0e2ea6d1c621e6d4391c8d03e89c5cc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7fb037d8947e64a8c3f9cc24f1dc2f92') in 0.0561382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Textures/TropicalEnvironment_GodRay_01.png
+  artifactKey: Guid(e9f02f1c40a83c6429d4ee99c2466d88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Textures/TropicalEnvironment_GodRay_01.png using Guid(e9f02f1c40a83c6429d4ee99c2466d88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '87462e40ee3d2b6f541f7e3c9a482e46') in 0.0360461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asteroids Pack/Assets/Prefabs/Asteroid 3.prefab
+  artifactKey: Guid(04d0bf4be9447154188d86f6e3b8dce9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids Pack/Assets/Prefabs/Asteroid 3.prefab using Guid(04d0bf4be9447154188d86f6e3b8dce9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'aeb25520bd09b38ab24b2a1266578dfd') in 0.0569737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Textures/TropicalEnvironment_GodRay_02.png
+  artifactKey: Guid(ae7eb9024a645f64095ee3b1dbfe8e1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Textures/TropicalEnvironment_GodRay_02.png using Guid(ae7eb9024a645f64095ee3b1dbfe8e1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '505a29eb410ee27a849570991a983c45') in 0.0494219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Ancient/Crystal_05.fbx
+  artifactKey: Guid(41e8c3d25c7c5f14e99404b2ba6f57f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Ancient/Crystal_05.fbx using Guid(41e8c3d25c7c5f14e99404b2ba6f57f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8dafc8eb17cc3356056632d9a6e27d54') in 0.0530977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Ancient/Column_04.fbx
+  artifactKey: Guid(4f6a8236bd75f30458de2a33639ed787) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Ancient/Column_04.fbx using Guid(4f6a8236bd75f30458de2a33639ed787) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '299c6bd939f7deee32fd0f17436c9610') in 0.0502154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '4b830c0fe54832e8911e7e7dd71d0488') in 0.1201602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/20-Leopard flip-Take1.fbx
+  artifactKey: Guid(aa6c633f6418cc44eaff195c1ec0cd56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/20-Leopard flip-Take1.fbx using Guid(aa6c633f6418cc44eaff195c1ec0cd56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'd8a3b4164abb9219d1f92e6e144538c5') in 0.0888898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Barrel_04.fbx
+  artifactKey: Guid(c56ec86f39d89f64ebde3803c9356d16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Barrel_04.fbx using Guid(c56ec86f39d89f64ebde3803c9356d16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b6b3191b37ff5241f2ece3a71b200995') in 0.056461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Ancient/Tile_01.fbx
+  artifactKey: Guid(aea915a5d2a777f48b051bdda8a65ef6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Ancient/Tile_01.fbx using Guid(aea915a5d2a777f48b051bdda8a65ef6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '99e89e61b71335722a15f9859dc317a9') in 0.0500298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Bottle_04.fbx
+  artifactKey: Guid(0e430c6cd54900840a33a79d94730db2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Bottle_04.fbx using Guid(0e430c6cd54900840a33a79d94730db2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7476ea45fb09ee5223b8f03586a98b6e') in 0.1097836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Diamond_02.fbx
+  artifactKey: Guid(1fff54f64b494d74fbad2ab2ac2ffc23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Diamond_02.fbx using Guid(1fff54f64b494d74fbad2ab2ac2ffc23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'c61ae6c83793633f3743cc1b1d454466') in 0.0449157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Diamond_03.fbx
+  artifactKey: Guid(a67f14694cc96cf49baf30ad8120d694) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Diamond_03.fbx using Guid(a67f14694cc96cf49baf30ad8120d694) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '4371b4e9c66c9270bf39bc29fa57f3d4') in 0.0525071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Chest_04.fbx
+  artifactKey: Guid(01d8c8c81d8fa0847b6a0b0789fcf27d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Chest_04.fbx using Guid(01d8c8c81d8fa0847b6a0b0789fcf27d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '413b595d5941f97b7ab29d895454f512') in 0.0621055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/34-Leopard air kick-Take2.fbx
+  artifactKey: Guid(881c200e3aea14a409b86d8a3c82ec66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Kung-Fu animations/34-Leopard air kick-Take2.fbx using Guid(881c200e3aea14a409b86d8a3c82ec66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'dd3a25299897067ef1afc85a52f72ec6') in 0.0830315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Mask_03.fbx
+  artifactKey: Guid(36ad8d6e96ee8634f85e4471fdb996f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Mask_03.fbx using Guid(36ad8d6e96ee8634f85e4471fdb996f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'b5074e1d36d85a052d64b10421bbf366') in 0.0568083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/HouseFloor_01.fbx
+  artifactKey: Guid(107b8144fd44c7343a7e8f4d8aff4065) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/HouseFloor_01.fbx using Guid(107b8144fd44c7343a7e8f4d8aff4065) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e21df0a7bd7d67a4175cea3a787d48bb') in 0.0594394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/PirateSword_01.fbx
+  artifactKey: Guid(74b69101ccd786c4d84459f0031dcf2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/PirateSword_01.fbx using Guid(74b69101ccd786c4d84459f0031dcf2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5cb09985f2a9a6796fae55a044d3762d') in 0.0462694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/CoralReef_09.prefab
+  artifactKey: Guid(6c01cb33b3bc5d145933cb8900c9e0f6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/CoralReef_09.prefab using Guid(6c01cb33b3bc5d145933cb8900c9e0f6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'adc1bd075d4fba1e7710323a38e1443a') in 0.0252806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Table_01.fbx
+  artifactKey: Guid(a112b9ae47ce82741bb528c0b67b35d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Table_01.fbx using Guid(a112b9ae47ce82741bb528c0b67b35d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '01cdb9159c81a32c34c13d1396550a47') in 0.0548416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Wineglass_01.fbx
+  artifactKey: Guid(e9d1c8b790e617642a8e393b44236393) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Wineglass_01.fbx using Guid(e9d1c8b790e617642a8e393b44236393) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8a7e7426cd6ba71c233b760d8633c596') in 0.052503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Rocks/Cave_01.fbx
+  artifactKey: Guid(69624d28af462bb418dc2fb79385b932) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Rocks/Cave_01.fbx using Guid(69624d28af462bb418dc2fb79385b932) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a23c4facadeef317226cc036cd193c70') in 0.1565888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_03.fbx
+  artifactKey: Guid(2d6c09d7652fc3e4589ced73cf3c7907) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_03.fbx using Guid(2d6c09d7652fc3e4589ced73cf3c7907) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'bb89766f8d71adab53c59cafeb0c2a7f') in 0.0642691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_01.fbx
+  artifactKey: Guid(3575d1ef2a0e73b4f81d488958a3d46d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_01.fbx using Guid(3575d1ef2a0e73b4f81d488958a3d46d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7a127d58c51bc24cc9caf65ff674db97') in 0.0477221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground001_N.png
+  artifactKey: Guid(a4de478484341ea469a6ebbbaf03de1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground001_N.png using Guid(a4de478484341ea469a6ebbbaf03de1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '80ca2b2d25dc68836bea6b263ca50a0a') in 0.3717918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_06.fbx
+  artifactKey: Guid(8b4b06cd6feeea44cb9d0a0c9c079c3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_06.fbx using Guid(8b4b06cd6feeea44cb9d0a0c9c079c3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '33466cb5ab6ae09a6046939463cd1753') in 0.0762116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Seaweed_02.fbx
+  artifactKey: Guid(3dba0c526a595b24a8f566d1da50cc70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Seaweed_02.fbx using Guid(3dba0c526a595b24a8f566d1da50cc70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '282703ee02e73c9ea9eed8866271a0c7') in 0.0415092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Stairs_02.prefab
+  artifactKey: Guid(f0ddce606f636a9459e0e1859e6e1b97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Stairs_02.prefab using Guid(f0ddce606f636a9459e0e1859e6e1b97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0b385ec9f6cf0fa06b750ab65ff0d50a') in 0.0245968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Tile_06.prefab
+  artifactKey: Guid(95a88b4dcbd6f804099c2e4fa98ff03d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Tile_06.prefab using Guid(95a88b4dcbd6f804099c2e4fa98ff03d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a7274277dc316da5c8e61c8466e350b7') in 0.0284587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Crystal_05.prefab
+  artifactKey: Guid(a29e453ffe3a4f944a58688ee12784c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Crystal_05.prefab using Guid(a29e453ffe3a4f944a58688ee12784c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '42cdbee2c4a4478a055ff48250de4026') in 0.033048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Rocks/Rock_09.fbx
+  artifactKey: Guid(cd94fb68ecf9cae42898008d32015f63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Rocks/Rock_09.fbx using Guid(cd94fb68ecf9cae42898008d32015f63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '456cd23ce29cf7b185a9d35074997229') in 0.0419962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Plank_03.fbx
+  artifactKey: Guid(0333bf078e9eeb74194660221592fcd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Plank_03.fbx using Guid(0333bf078e9eeb74194660221592fcd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '64fee075f784cf60ea2ec78d314068b3') in 0.0561789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Coin_01.prefab
+  artifactKey: Guid(9e909ae7bb485814ea6e0987a45c3e12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Coin_01.prefab using Guid(9e909ae7bb485814ea6e0987a45c3e12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2f32cda116f1d96c4109d6ab0da37454') in 0.0662621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/GodRay_05.prefab
+  artifactKey: Guid(8423deea003667d40bdc2876ac07e333) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/GodRay_05.prefab using Guid(8423deea003667d40bdc2876ac07e333) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8a223215ccf05aec6cb0f96ecbfd9a39') in 0.0660223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Water_01.prefab
+  artifactKey: Guid(b37b3915066995a47b94d4f47f1f027c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Water_01.prefab using Guid(b37b3915066995a47b94d4f47f1f027c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '7fc8220d2798c6d8b52fff63ca0d4769') in 0.0447036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_08.prefab
+  artifactKey: Guid(4f9625bd7ebf8af4eaa5d86ef4e91ec1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_08.prefab using Guid(4f9625bd7ebf8af4eaa5d86ef4e91ec1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '54cec062d9c1559529446fbe322be74d') in 0.0320875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fish_02.prefab
+  artifactKey: Guid(4a9f671bc733178458ba35ba78e2a2d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fish_02.prefab using Guid(4a9f671bc733178458ba35ba78e2a2d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3df0e7fe62aa8a4eeb7693c161d6220c') in 0.0365792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Coin_02.prefab
+  artifactKey: Guid(825a32ef282445644a20811c018a76f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Coin_02.prefab using Guid(825a32ef282445644a20811c018a76f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '2bf6af97745b065a361d58237844282c') in 0.0293495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fish_03.prefab
+  artifactKey: Guid(66614b6f9f74f994d9a5dbde277b9d6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fish_03.prefab using Guid(66614b6f9f74f994d9a5dbde277b9d6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'e1265ccd73a1604cfd14cdc9e4a986a1') in 0.0274022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fence_02.prefab
+  artifactKey: Guid(e778a3af353e47145bcf2750f2591f17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fence_02.prefab using Guid(e778a3af353e47145bcf2750f2591f17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '1ebb2bad612699de47bed4f7174ae325') in 0.0343184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Shovel_02.prefab
+  artifactKey: Guid(2cd8eeb35a970d442b66beea344e2461) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Shovel_02.prefab using Guid(2cd8eeb35a970d442b66beea344e2461) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a7053bc555f9804060d28b87fdbfe0e2') in 0.0365317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_03.prefab
+  artifactKey: Guid(fb1cb0e0e3adf714cafe4f4e2e850117) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_03.prefab using Guid(fb1cb0e0e3adf714cafe4f4e2e850117) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '312bf3b73624d2951e69f42a432306ac') in 0.0260253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/WoodStairs_03.prefab
+  artifactKey: Guid(c6aed21a2bf5eae438b348a2d1f08249) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/WoodStairs_03.prefab using Guid(c6aed21a2bf5eae438b348a2d1f08249) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '560ef658b662309ab3646636330b7667') in 0.0286006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/WoodStairs_01.prefab
+  artifactKey: Guid(923ef976298e7c94f8fe1fccb4db96f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/WoodStairs_01.prefab using Guid(923ef976298e7c94f8fe1fccb4db96f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5b88dba88cbc6756c48d33eb4c8837b8') in 0.0475188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Props/Pier_02.fbx
+  artifactKey: Guid(03329c65c5677ff4d841253127b1f8fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Props/Pier_02.fbx using Guid(03329c65c5677ff4d841253127b1f8fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '63b079e56d0be1968af09c3e2bbf6907') in 0.0444276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_02.prefab
+  artifactKey: Guid(c340967cf8ad4834b80fd1ab0a6c0058) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_02.prefab using Guid(c340967cf8ad4834b80fd1ab0a6c0058) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '885c38be4ef3770f874ef15f580a28ab') in 0.0249635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Flower_02.prefab
+  artifactKey: Guid(1415b777b6e1e374b845c1de7703705b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Flower_02.prefab using Guid(1415b777b6e1e374b845c1de7703705b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ea45e4e0797fc298588bbe33440b08de') in 0.0260494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_04.prefab
+  artifactKey: Guid(73c0e51fb4df33a49bfa18b2fd6aff10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_04.prefab using Guid(73c0e51fb4df33a49bfa18b2fd6aff10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a749dd59baec6f87efff132e4337a652') in 0.0227601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_14.prefab
+  artifactKey: Guid(8a3b74bbe4a40044fa6fbc2ac2b22aac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_14.prefab using Guid(8a3b74bbe4a40044fa6fbc2ac2b22aac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '709ccef923f2fdaef341d3e1ce1ab76f') in 0.0281619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/CubeParticles_01.prefab
+  artifactKey: Guid(e677c554eaaee7048b3bc13fdf357791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/CubeParticles_01.prefab using Guid(e677c554eaaee7048b3bc13fdf357791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '043084e8e8320e2725f23ee005a74a6c') in 0.1999397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Seaweed_02.prefab
+  artifactKey: Guid(f3d8f61997d4e4c4686bdc61bbb54eb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Seaweed_02.prefab using Guid(f3d8f61997d4e4c4686bdc61bbb54eb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0709bfe0a0cd59f9016e8171be2f096d') in 0.0276971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_06.prefab
+  artifactKey: Guid(a3672d06736c8c94dbccc03af417500b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_06.prefab using Guid(a3672d06736c8c94dbccc03af417500b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '228ad1a1018688a31ffdf57699f9a8d2') in 0.0396101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/No root animations/42-Leopard twist grip-Take2-no root.fbx
+  artifactKey: Guid(b94437f296ab4ff47b0a3ff97b4fba58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/No root animations/42-Leopard twist grip-Take2-no root.fbx using Guid(b94437f296ab4ff47b0a3ff97b4fba58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'd661825668e301a97ef3f0bdafcd1bf9') in 0.0717117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Anchor.prefab
+  artifactKey: Guid(7b98fdf8cf5c57a4a974fa1bfdb94387) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Anchor.prefab using Guid(7b98fdf8cf5c57a4a974fa1bfdb94387) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '45a2038e291034973d7a02295a81402d') in 0.0390813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Watchtower_01.prefab
+  artifactKey: Guid(0e508bb2430beb248bec6d2ae9aa7d92) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Watchtower_01.prefab using Guid(0e508bb2430beb248bec6d2ae9aa7d92) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '41f78eef90bc7f9b3f4edb496caacfa1') in 0.0362799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Roof_01.prefab
+  artifactKey: Guid(d47ec61ca7b3c2342b3f447b74774683) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Roof_01.prefab using Guid(d47ec61ca7b3c2342b3f447b74774683) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'f783178d0dafb48915b7bd5b6c115297') in 0.0424443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Motion Cast#06 - Vol.1/Controller animations demo/38-Rainy blast kick-Take2.controller
+  artifactKey: Guid(0d44267136daaab44a726eb2a9c3c9be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Motion Cast#06 - Vol.1/Controller animations demo/38-Rainy blast kick-Take2.controller using Guid(0d44267136daaab44a726eb2a9c3c9be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8dfca848eac12ad781eda66af411d34a') in 0.0401675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground004.tif
+  artifactKey: Guid(a6b5692faa961fb408f8a29bba370a81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground004.tif using Guid(a6b5692faa961fb408f8a29bba370a81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ec2d3b5dcf8b7c6ea18b22b9d80ef1aa') in 0.0500445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
