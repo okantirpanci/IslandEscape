@@ -15,21 +15,36 @@ public class PlayerController : MonoBehaviour
     private Vector3 velocity;
     private bool isGrounded;
 
+    [Header("UI Settings")]
+    public GameObject taskPanel; // Görev paneli referansı
+    private bool isTaskPanelOpen = false; // Görev panelinin açık olup olmadığını takip eder
+
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked; 
+        LockCursor(true); // Başlangıçta fareyi kilitle
     }
 
     private void Update()
     {
-        Movement();
-        CameraRotation();
+        // Görev panelini açma/kapatma
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            isTaskPanelOpen = !isTaskPanelOpen;
+            taskPanel.SetActive(isTaskPanelOpen);
+            LockCursor(!isTaskPanelOpen); // Görev paneli açıkken fareyi serbest bırak
+        }
+
+        // Eğer görev paneli açık değilse hareketi ve kamerayı güncelle
+        if (!isTaskPanelOpen)
+        {
+            Movement();
+            CameraRotation();
+        }
     }
 
     private void Movement()
     {
-
         isGrounded = characterController.isGrounded;
         if (isGrounded && velocity.y < 0)
         {
@@ -60,5 +75,19 @@ public class PlayerController : MonoBehaviour
         playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
         transform.Rotate(Vector3.up * mouseX);
+    }
+
+    private void LockCursor(bool isLocked)
+    {
+        if (isLocked)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 }
