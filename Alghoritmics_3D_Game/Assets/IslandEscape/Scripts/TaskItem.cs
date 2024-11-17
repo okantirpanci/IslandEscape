@@ -20,5 +20,9 @@ public class TaskItem : MonoBehaviour
         {
             FindObjectOfType<TaskUIManager>().CompleteTask(taskIndex);
         });
+
+        // Görev durumuna göre butonun interaktifliğini ayarla
+        Task task = FindObjectOfType<TaskManager>().tasks[taskIndex];
+        completeButton.interactable = task.isCompleted;
     }
 }
