@@ -9,12 +9,23 @@ public class InventorySlot : MonoBehaviour
     public void Initialize(InventoryItem newItem)
     {
         item = newItem;
-        itemIcon.sprite = item.itemIcon; // Ödül ikonunu slotta göster
+        if (item.itemIcon != null)
+        {
+            itemIcon.sprite = item.itemIcon; // Ödül ikonunu slotta göster
+            itemIcon.enabled = true; // İkonu görünür yap
+        }
     }
+
 
     public void OnClick()
     {
         Debug.Log("Ödül seçildi: " + item.itemName);
-        // İleride ödülü oyun alanına yerleştirmek için kullanılabilir
+
+        if (item.itemPrefab != null)
+        {
+            Instantiate(item.itemPrefab, Vector3.zero, Quaternion.identity); // Ödülü sıfır noktasına ekle
+        }
     }
+
 }
+

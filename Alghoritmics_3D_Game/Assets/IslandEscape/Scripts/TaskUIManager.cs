@@ -11,10 +11,6 @@ public class TaskUIManager : MonoBehaviour
     public Transform contentTransform;    // Scroll View'in Content alanı
     public GameObject taskPrefab;         // Görev Prefab'i
 
-    // Envanter için
-    public Transform inventoryContent;    // Envanter Scroll View'in Content alanı
-    public GameObject inventorySlotPrefab; // Envanterde kullanılacak slot prefab'i
-
     private int currentTaskIndex = -1;    // Seçilen görevin indeksi (başlangıçta seçilmemiş)
 
     private void Start()
@@ -98,10 +94,10 @@ public class TaskUIManager : MonoBehaviour
             task.isCompleted = true;
             Debug.Log("Görev tamamlandı: " + task.taskName);
 
-            // Görev ödülünü envantere ekle
+            // Görev ödülünü envantere eklemek için InventoryManager çağrısı
             if (task.reward != null)
             {
-                AddRewardToInventory(task.reward);
+                FindObjectOfType<InventoryManager>().AddItemToInventory(task.reward);
             }
 
             // Görev detaylarını güncelle
@@ -111,13 +107,5 @@ public class TaskUIManager : MonoBehaviour
         {
             Debug.Log("Görev zaten tamamlanmış: " + task.taskName);
         }
-    }
-
-    public void AddRewardToInventory(InventoryItem reward)
-    {
-        // Envantere ödül ekleme işlemi
-        GameObject newSlot = Instantiate(inventorySlotPrefab, inventoryContent); // Yeni slot oluştur
-        InventorySlot slot = newSlot.GetComponent<InventorySlot>();
-        slot.Initialize(reward); // Slotu başlat
     }
 }

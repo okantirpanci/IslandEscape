@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class InventoryItem
+public class InventoryItem : MonoBehaviour
 {
     public string itemName; // Ödül adı
     public GameObject itemPrefab; // Oyun dünyasına yerleştirilecek model
