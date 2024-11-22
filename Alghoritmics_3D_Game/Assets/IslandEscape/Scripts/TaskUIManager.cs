@@ -28,6 +28,7 @@ public class TaskUIManager : MonoBehaviour
         taskManager.OnTaskUpdated -= UpdateTaskUI;
     }
 
+
     public void CreateTaskList()
     {
         // Content altındaki tüm mevcut görevleri temizle
@@ -66,46 +67,71 @@ public class TaskUIManager : MonoBehaviour
         taskItem.completeButton.interactable = task.isCompleted;
     }
 
-    private void UpdateTaskUI(int taskIndex)
+    public void UpdateTaskUI(int taskIndex)
     {
         Task task = taskManager.tasks[taskIndex];
+        Debug.Log($"UpdateTaskUI: Task {task.taskName}, Completed: {task.isCompleted}, Stars: {task.starsCollected}/{task.starsRequired}");
 
-        // Eğer detay paneli açık ve güncellenen görev bu ise
+        // Eğer görev detay paneli açık ve bu görev detay panelindeyse
         if (currentTaskIndex == taskIndex)
         {
-            taskProgress.text = task.starsCollected + " / " + task.starsRequired;
+            taskProgress.text = $"{task.starsCollected} / {task.starsRequired}";
 
-            // Görev tamamlandıysa "Tamamlandı" butonunu aktif hale getir
+            // Görev tamamlanma durumuna göre "Ödül Al" butonunu aktif/pasif yap
             TaskItem taskItem = contentTransform.GetChild(taskIndex).GetComponent<TaskItem>();
-            taskItem.completeButton.interactable = task.isCompleted;
+            if (taskItem != null)
+            {
+                bool canComplete = task.starsCollected >= task.starsRequired && !task.isCompleted;
+                taskItem.completeButton.interactable = canComplete;
+                Debug.Log($"CompleteButton güncellendi: Interactable = {canComplete}, StarsCollected = {task.starsCollected}, IsCompleted = {task.isCompleted}");
+            }
         }
 
-        // Scroll View'deki görev listesini güncelle
+        // Scroll View içindeki görev listesindeki durumu güncelle
         TaskItem updatedTaskItem = contentTransform.GetChild(taskIndex).GetComponent<TaskItem>();
-        updatedTaskItem.completeButton.interactable = task.isCompleted;
-        updatedTaskItem.taskNameButton.GetComponentInChildren<Text>().text = task.taskName + (task.isCompleted ? " (Tamamlandı)" : "");
+        if (updatedTaskItem != null)
+        {
+            bool canComplete = task.starsCollected >= task.starsRequired && !task.isCompleted;
+            updatedTaskItem.completeButton.interactable = canComplete;
+            Debug.Log($"UpdatedTaskItem CompleteButton güncellendi: Interactable = {canComplete}");
+        }
     }
+
+
+
+
+
 
     public void CompleteTask(int taskIndex)
     {
-        Task task = taskManager.tasks[taskIndex]; // Mevcut görev bilgilerini al
-        if (!task.isCompleted)
+        Task task = taskManager.tasks[taskIndex];
+        Debug.Log($"CompleteTask çalıştı, TaskIndex: {taskIndex}, TaskName: {task.taskName}, IsCompleted: {task.isCompleted}, StarsCollected: {task.starsCollected}, StarsRequired: {task.starsRequired}");
+
+        if (!task.isCompleted && task.starsCollected >= task.starsRequired)
         {
             task.isCompleted = true;
-            Debug.Log("Görev tamamlandı: " + task.taskName);
+            Debug.Log($"Görev tamamlandı: {task.taskName}");
 
-            // Görev ödülünü envantere eklemek için InventoryManager çağrısı
-            if (task.reward != null)
+            InventoryManager inventoryManager = FindObjectOfType<InventoryManager>();
+            if (inventoryManager != null && task.reward != null)
             {
-                FindObjectOfType<InventoryManager>().AddItemToInventory(task.reward);
+                inventoryManager.AddItemToInventory(task.reward);
+                Debug.Log($"Ödül envantere eklendi: {task.reward.itemName}");
+            }
+            else
+            {
+                Debug.Log("InventoryManager veya ödül bulunamadı.");
             }
 
-            // Görev detaylarını güncelle
             UpdateTaskUI(taskIndex);
         }
         else
         {
-            Debug.Log("Görev zaten tamamlanmış: " + task.taskName);
+            Debug.Log($"Görev zaten tamamlanmış veya yıldız sayısı yetersiz: {task.taskName}");
         }
     }
+
+
+
+
 }

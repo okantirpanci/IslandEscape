@@ -9,10 +9,14 @@ public class InventorySlot : MonoBehaviour
     public void Initialize(InventoryItem newItem)
     {
         item = newItem;
-        if (item.itemIcon != null)
+        if (itemIcon != null && item.itemIcon != null)
         {
-            itemIcon.sprite = item.itemIcon; // Ödül ikonunu slotta göster
-            itemIcon.enabled = true; // İkonu görünür yap
+            Debug.Log($"Slot ikonu ayarlanıyor: {item.itemName}");
+            itemIcon.sprite = item.itemIcon;
+        }
+        else
+        {
+            Debug.LogError("Slot ikonu ayarlanamadı. Eksik referans!");
         }
     }
 
@@ -21,11 +25,10 @@ public class InventorySlot : MonoBehaviour
     {
         Debug.Log("Ödül seçildi: " + item.itemName);
 
+        // Oyun alanına ödül ekleme
         if (item.itemPrefab != null)
         {
-            Instantiate(item.itemPrefab, Vector3.zero, Quaternion.identity); // Ödülü sıfır noktasına ekle
+            Instantiate(item.itemPrefab, Vector3.zero, Quaternion.identity); // Ödülü oyun alanına ekle
         }
     }
-
 }
-

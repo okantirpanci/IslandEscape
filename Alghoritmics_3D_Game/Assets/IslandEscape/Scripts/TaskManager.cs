@@ -25,20 +25,31 @@ public class TaskManager : MonoBehaviour
 
     public void CollectStar(int taskIndex)
     {
-        if (!tasks[taskIndex].isCompleted && tasks[taskIndex].starsCollected < tasks[taskIndex].starsRequired)
-        {
-            tasks[taskIndex].starsCollected++; // Yıldız sayısını artır
+        Task task = tasks[taskIndex];
 
-            // Görev tamamlandıysa
-            if (tasks[taskIndex].starsCollected >= tasks[taskIndex].starsRequired)
+        if (!task.isCompleted && task.starsCollected < task.starsRequired)
+        {
+            task.starsCollected++;
+            Debug.Log($"CollectStar: {task.taskName}, StarsCollected: {task.starsCollected}, StarsRequired: {task.starsRequired}");
+
+            if (task.starsCollected >= task.starsRequired)
             {
-                tasks[taskIndex].isCompleted = true;
-                Debug.Log(tasks[taskIndex].taskName + " tamamlandı!");
+                task.isCompleted = false; // Görevi tamamlamış gibi görünmesini önlemek için geçici olarak false bırakıyoruz.
+                Debug.Log($"Görev tamamlanmadı (test için): {task.taskName}");
             }
 
-            // Görev güncelleme olayını tetikle
+            // Görev güncelleme olayını tetikleyin
             OnTaskUpdated?.Invoke(taskIndex);
+            Debug.Log($"OnTaskUpdated çağrıldı: TaskIndex {taskIndex}");
+        }
+        else
+        {
+            Debug.Log($"Görev zaten tamamlanmış veya yıldız sayısı maksimum: {task.taskName}");
         }
     }
+
+
+
+
 
 }
