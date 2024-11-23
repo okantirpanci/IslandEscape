@@ -9,7 +9,8 @@ public class InventoryManager : MonoBehaviour
 
     public void AddItemToInventory(InventoryItem item)
     {
-        if (item == null)
+        Debug.Log($"İtem İkonu Kontrolü: {item.itemName}, İkon: {item.itemIcon}");
+        if (item.itemIcon == null)
         {
             Debug.LogError("Envantere eklenmek istenen item null!");
             return;
@@ -34,5 +35,4 @@ public class InventoryManager : MonoBehaviour
             Debug.LogError("Slot oluşturulamadı! InventorySlot script'i atanmış mı?");
         }
     }
-
 }

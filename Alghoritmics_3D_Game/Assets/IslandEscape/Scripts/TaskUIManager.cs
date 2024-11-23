@@ -64,7 +64,10 @@ public class TaskUIManager : MonoBehaviour
 
         // Tamamlandı butonunun durumunu kontrol et
         TaskItem taskItem = contentTransform.GetChild(taskIndex).GetComponent<TaskItem>();
-        taskItem.completeButton.interactable = task.isCompleted;
+
+        taskItem.completeButton.interactable = !task.isCompleted && task.starsCollected >= task.starsRequired;
+        Debug.Log($"Görev detayları güncellendi: {task.taskName}, IsCompleted = {task.isCompleted}");
+
     }
 
     public void UpdateTaskUI(int taskIndex)
@@ -91,15 +94,12 @@ public class TaskUIManager : MonoBehaviour
         TaskItem updatedTaskItem = contentTransform.GetChild(taskIndex).GetComponent<TaskItem>();
         if (updatedTaskItem != null)
         {
-            bool canComplete = task.starsCollected >= task.starsRequired && !task.isCompleted;
+            bool canComplete = !task.isCompleted && task.starsCollected >= task.starsRequired;
             updatedTaskItem.completeButton.interactable = canComplete;
-            Debug.Log($"UpdatedTaskItem CompleteButton güncellendi: Interactable = {canComplete}");
+            Debug.Log($"CompleteButton güncellendi: Interactable = {canComplete}, IsCompleted = {task.isCompleted}");
+
         }
     }
-
-
-
-
 
 
     public void CompleteTask(int taskIndex)
@@ -111,10 +111,12 @@ public class TaskUIManager : MonoBehaviour
         {
             task.isCompleted = true;
             Debug.Log($"Görev tamamlandı: {task.taskName}");
+            UpdateTaskUI(taskIndex);
 
             InventoryManager inventoryManager = FindObjectOfType<InventoryManager>();
             if (inventoryManager != null && task.reward != null)
             {
+                Debug.Log($"Reward İkonu: {task.reward.itemIcon}");
                 inventoryManager.AddItemToInventory(task.reward);
                 Debug.Log($"Ödül envantere eklendi: {task.reward.itemName}");
             }
@@ -122,16 +124,12 @@ public class TaskUIManager : MonoBehaviour
             {
                 Debug.Log("InventoryManager veya ödül bulunamadı.");
             }
-
-            UpdateTaskUI(taskIndex);
+            
         }
         else
         {
             Debug.Log($"Görev zaten tamamlanmış veya yıldız sayısı yetersiz: {task.taskName}");
         }
     }
-
-
-
 
 }
