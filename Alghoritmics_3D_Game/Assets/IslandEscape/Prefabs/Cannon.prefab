@@ -450,7 +450,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4526043202633651016, guid: 0022eeb1fa37e4f468c3f0a80ae1050a, type: 3}
 --- !u!1 &5422821072531299705
@@ -559,7 +559,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6597542277379532534, guid: 0022eeb1fa37e4f468c3f0a80ae1050a, type: 3}
 --- !u!1 &5857218811533877379
@@ -668,7 +668,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4632403584730383165, guid: 0022eeb1fa37e4f468c3f0a80ae1050a, type: 3}
 --- !u!1 &6115346369774044438
@@ -777,7 +777,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6507713985050853169, guid: 0022eeb1fa37e4f468c3f0a80ae1050a, type: 3}
 --- !u!1 &6207062804830075951
@@ -886,7 +886,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6580451597977791230, guid: 0022eeb1fa37e4f468c3f0a80ae1050a, type: 3}
 --- !u!1 &7695674352072475810
@@ -899,6 +899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6858393281793908971}
   - component: {fileID: 3835506026461154873}
+  - component: {fileID: -1348368913017579474}
   m_Layer: 0
   m_Name: Cannon
   m_TagString: Untagged
@@ -966,6 +967,33 @@ LODGroup:
     - renderer: {fileID: 6362307411904918572}
     - renderer: {fileID: 7283089442859846220}
   m_Enabled: 1
+--- !u!54 &-1348368913017579474
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7695674352072475810}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8370584737257761167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,7 +1186,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 577316912162577176, guid: 0022eeb1fa37e4f468c3f0a80ae1050a, type: 3}
 --- !u!1 &8899689608877462703

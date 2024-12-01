@@ -5,10 +5,13 @@ public class InventorySlot : MonoBehaviour
 {
     public Image itemIcon; // Ödül ikonunu göstermek için
     private InventoryItem item;
+    public Transform playerTransform; // Oyuncunun pozisyonunu almak için referans
 
-    public void Initialize(InventoryItem newItem)
+    public void Initialize(InventoryItem newItem, Transform player)
     {
         item = newItem;
+        playerTransform = player;
+
         if (itemIcon != null && item.itemIcon != null)
         {
             Debug.Log($"Slot ikonu ayarlanıyor: {item.itemName}");
@@ -20,15 +23,20 @@ public class InventorySlot : MonoBehaviour
         }
     }
 
-
     public void OnClick()
     {
         Debug.Log("Ödül seçildi: " + item.itemName);
 
-        // Oyun alanına ödül ekleme
-        if (item.itemPrefab != null)
+        // Oyuncunun pozisyonunda ödülü oluştur
+        if (item.itemPrefab != null && playerTransform != null)
         {
-            Instantiate(item.itemPrefab, Vector3.zero, Quaternion.identity); // Ödülü oyun alanına ekle
+            Vector3 spawnPosition = playerTransform.position + playerTransform.forward * 2; // Oyuncunun önünde spawn olsun
+            Instantiate(item.itemPrefab, spawnPosition, Quaternion.identity);
+            Debug.Log($"Ödül oluşturuldu: {item.itemName} at {spawnPosition}");
+        }
+        else
+        {
+            Debug.LogError("Ödül oluşturulamadı! Prefab veya PlayerTransform eksik.");
         }
     }
 }

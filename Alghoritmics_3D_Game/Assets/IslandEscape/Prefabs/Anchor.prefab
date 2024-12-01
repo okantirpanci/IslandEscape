@@ -106,7 +106,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8817529132099038187, guid: cc52fb6cd5184f348b6db60277dd992a, type: 3}
 --- !u!1 &4550346658506502305
@@ -205,6 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2301030221368547703}
   - component: {fileID: 2827764829117531274}
+  - component: {fileID: 7575056238340380395}
   m_Layer: 0
   m_Name: Anchor
   m_TagString: Untagged
@@ -252,3 +253,30 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2407476837417108157}
   m_Enabled: 1
+--- !u!54 &7575056238340380395
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7176701400257542927}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

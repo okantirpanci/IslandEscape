@@ -6,11 +6,11 @@ public class InventoryManager : MonoBehaviour
     public List<InventoryItem> inventory = new List<InventoryItem>(); // Envanterdeki ödüller
     public Transform inventoryUIParent; // Envanter UI'nin içeriği (scrollview content)
     public GameObject inventorySlotPrefab; // Envanterde kullanılacak slot prefab'ı
+    public Transform playerTransform; // Oyuncu referansı
 
     public void AddItemToInventory(InventoryItem item)
     {
-        Debug.Log($"İtem İkonu Kontrolü: {item.itemName}, İkon: {item.itemIcon}");
-        if (item.itemIcon == null)
+        if (item == null)
         {
             Debug.LogError("Envantere eklenmek istenen item null!");
             return;
@@ -28,7 +28,7 @@ public class InventoryManager : MonoBehaviour
         if (slot != null)
         {
             Debug.Log("Slot başarıyla oluşturuldu.");
-            slot.Initialize(item); // Slotu başlat
+            slot.Initialize(item, playerTransform); // Slotu başlat ve player referansını geçir
         }
         else
         {
