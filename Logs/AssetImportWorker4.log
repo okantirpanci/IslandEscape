@@ -1,0 +1,1027 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.25f1 (4859ab7b5a49) revision 4741547'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'tr' Physical Memory: 16255 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/nako-/Desktop/Algorithmics Dosyalar/UnityProjeler/IslandEscape
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50309
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/nako-/Desktop/Algorithmics Dosyalar/UnityProjeler/IslandEscape
+C:/Users/nako-/Desktop/Algorithmics Dosyalar/UnityProjeler/IslandEscape
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15380]  Target information:
+
+Player connection [15380]  * "[IP] 192.168.1.71 [Port] 0 [Flags] 2 [Guid] 987982382 [EditorId] 987982382 [Version] 1048832 [Id] WindowsEditor(7,Okan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15380] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15380] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nako-/Desktop/Algorithmics Dosyalar/UnityProjeler/IslandEscape/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002132 seconds.
+- Loaded All Assemblies, in  0.347 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 673ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (129ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (287ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.819 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.804 seconds
+Domain Reload Profiling: 1621ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (805ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (606ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3657 unused Assets / (1.2 MB). Loaded Objects now: 4258.
+Memory consumption went from 119.9 MB to 118.6 MB.
+Total: 12.486400 ms (FindLiveObjects: 0.658200 ms CreateObjectMapping: 1.078000 ms MarkObjects: 9.223800 ms  DeleteObjects: 1.522800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1844.441490 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Terrain/TerrainLayer
+  artifactKey: Guid(dc3c1db9bbbcf494b9048d9af2d6788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Terrain/TerrainLayer using Guid(dc3c1db9bbbcf494b9048d9af2d6788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f8516dfcb789f87d23b29d8047bcb6d') in 0.0048825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.086121 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Terrain/TerrainLayer/Grass_01.terrainlayer
+  artifactKey: Guid(28c871fd91049ab40952fe0cb5cbf5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Terrain/TerrainLayer/Grass_01.terrainlayer using Guid(28c871fd91049ab40952fe0cb5cbf5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a558075aab63c354d3a02c3d4854529') in 0.0598025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.923616 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs
+  artifactKey: Guid(04d23dc46ae5a0948999af2f8278fd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs using Guid(04d23dc46ae5a0948999af2f8278fd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41a6681714fb2270f7ca9a604ebde379') in 0.0005235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.997208 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation
+  artifactKey: Guid(6ec04a722fa84964ba45a3b853158ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation using Guid(6ec04a722fa84964ba45a3b853158ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfe1c5644400e097b1893b266379a328') in 0.0004498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068625 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Bamboo_01.prefab
+  artifactKey: Guid(e76261df150f8fd4596996c8a6b52751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Bamboo_01.prefab using Guid(e76261df150f8fd4596996c8a6b52751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bae373bb6aa9c558d683a7ad5a00189f') in 0.0698195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_07.prefab
+  artifactKey: Guid(c50e9e1fa8a15df43be82ed53633f52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_07.prefab using Guid(c50e9e1fa8a15df43be82ed53633f52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c432be15dafad5427c60924b311be976') in 0.0161888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PalmTree_03.prefab
+  artifactKey: Guid(4cd01e234d293be489071787d1c9ac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PalmTree_03.prefab using Guid(4cd01e234d293be489071787d1c9ac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'accef62d550ce82d19a55f457919ad0c') in 0.0134839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PondPlant_02.prefab
+  artifactKey: Guid(04fd74f8066d35b4592654f0449039ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PondPlant_02.prefab using Guid(04fd74f8066d35b4592654f0449039ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f6f1933e418b9ad72a76fdf6ff39e39') in 0.0229546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PalmTree_01.prefab
+  artifactKey: Guid(d9a20dde9d3a1de4082aeb917f83c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PalmTree_01.prefab using Guid(d9a20dde9d3a1de4082aeb917f83c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd1338bd43cb9e113b53bb4d251f7fa') in 0.0170261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Starfish_02.prefab
+  artifactKey: Guid(bba2310cabae6654db284989d3397880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Starfish_02.prefab using Guid(bba2310cabae6654db284989d3397880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd8b933f17d27641caa7efd8088be05e') in 0.0135494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Grass_01.prefab
+  artifactKey: Guid(dbaed2e87a503c848a2bcfa1785b29e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Grass_01.prefab using Guid(dbaed2e87a503c848a2bcfa1785b29e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54cdcd1d1b701c264c172c90315c5336') in 0.0584014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_01.prefab
+  artifactKey: Guid(eca504712f949af48b741e7c32e3baeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_01.prefab using Guid(eca504712f949af48b741e7c32e3baeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a30b4ee05d4b8aa85bebc190868557e7') in 0.0206148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_03.prefab
+  artifactKey: Guid(9188afb691effe14c9b1b464d0b16442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_03.prefab using Guid(9188afb691effe14c9b1b464d0b16442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b102e01d61e809703926d5bd277dee6c') in 0.0141001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Seaweed_04.prefab
+  artifactKey: Guid(4851245de9e7d8e4fbd75a86b99e45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Seaweed_04.prefab using Guid(4851245de9e7d8e4fbd75a86b99e45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a9761bf35111baa56251373f35050ff') in 0.0212664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/CoralReef_09.prefab
+  artifactKey: Guid(6c01cb33b3bc5d145933cb8900c9e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/CoralReef_09.prefab using Guid(6c01cb33b3bc5d145933cb8900c9e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f29cb1312a8858927897e39a40d4ed2f') in 0.0143789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/CoralReef_07.prefab
+  artifactKey: Guid(7142ad6867b31704a884930fbe5d459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/CoralReef_07.prefab using Guid(7142ad6867b31704a884930fbe5d459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7f9bbf9113bf2d8fdfdf5f2340b2f5') in 0.0133765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Flower_02.prefab
+  artifactKey: Guid(1415b777b6e1e374b845c1de7703705b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Flower_02.prefab using Guid(1415b777b6e1e374b845c1de7703705b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baaff6a9c5371c053c15679cc8a8cac7') in 0.0401147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PondPlant_05.prefab
+  artifactKey: Guid(ebfc0068e907fa340908b71df215cbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PondPlant_05.prefab using Guid(ebfc0068e907fa340908b71df215cbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85da13f62e1dcab3b7e5f2448721f177') in 0.0231317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PalmTree_05.prefab
+  artifactKey: Guid(74aef0edadd5c8c4498d6be0778fea1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PalmTree_05.prefab using Guid(74aef0edadd5c8c4498d6be0778fea1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d301a39d43e5f6ed65969b97daf0588') in 0.0148859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Seaweed_03.prefab
+  artifactKey: Guid(5836524b2f7390d4696dd71c2ca8705d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Seaweed_03.prefab using Guid(5836524b2f7390d4696dd71c2ca8705d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04d09fa8d3fc5d5f390686df825a8a3e') in 0.0180244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PondPlant_01.prefab
+  artifactKey: Guid(0c4af7423a7825948a66617b21787c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/PondPlant_01.prefab using Guid(0c4af7423a7825948a66617b21787c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4670fdb04b3d02c4b102ab6221a6f03c') in 0.0247286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_05.prefab
+  artifactKey: Guid(35a2594e7fafbd740affa31e9ae6e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Vegetation/Plant_05.prefab using Guid(35a2594e7fafbd740affa31e9ae6e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbfc836c17bcb8f673d1e755358125ae') in 0.0126143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.704513 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient
+  artifactKey: Guid(af462cc0b82ae4f4fad02b0fd8e1c0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient using Guid(af462cc0b82ae4f4fad02b0fd8e1c0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01ca3c3e02c20e8938a18da31a99c7fb') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.911652 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Brick_01.prefab
+  artifactKey: Guid(5d672cfd845c2114d9a8ace783c4c375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Brick_01.prefab using Guid(5d672cfd845c2114d9a8ace783c4c375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ee06bf4007b823d3bb2cc99a44d3c4e') in 0.0194481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Column_01.prefab
+  artifactKey: Guid(761a7393da23f2b4297661bc874e8333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Column_01.prefab using Guid(761a7393da23f2b4297661bc874e8333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90e64cff70222d9d5309db47848e713b') in 0.0163777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Column_04.prefab
+  artifactKey: Guid(eb4a74cf881613a4187c50d1ec36efbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Column_04.prefab using Guid(eb4a74cf881613a4187c50d1ec36efbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4d7408e3c2faa0003818907a8347aea') in 0.016149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Crystal_03.prefab
+  artifactKey: Guid(6f76ed61fd10d614d955ad55dc550b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Crystal_03.prefab using Guid(6f76ed61fd10d614d955ad55dc550b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1ecf0b64b28539a2022019e7ae3e3f2') in 0.0201935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Crystal_05.prefab
+  artifactKey: Guid(a29e453ffe3a4f944a58688ee12784c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Crystal_05.prefab using Guid(a29e453ffe3a4f944a58688ee12784c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7c5c7fe022da4678877f8575309db98') in 0.0165812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Cube_01.prefab
+  artifactKey: Guid(7ea64287d9d0ae04abf11238abd7535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Cube_01.prefab using Guid(7ea64287d9d0ae04abf11238abd7535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5e45a71ff9d3f93470e35b2e24c770e') in 0.0168796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Tile_01.prefab
+  artifactKey: Guid(930d73418dc46c04d8f0f9787ba6ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Tile_01.prefab using Guid(930d73418dc46c04d8f0f9787ba6ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fe01da166dc07507bb980fb6ac1772e') in 0.0180726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Tile_05.prefab
+  artifactKey: Guid(072063f7573592b469e8b5eabd0d0293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Tile_05.prefab using Guid(072063f7573592b469e8b5eabd0d0293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '350b38cca95a11bbd9fe6535b50bb1df') in 0.0164862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Tile_02.prefab
+  artifactKey: Guid(f373d5a3945dd5749b120d45ac67f298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Tile_02.prefab using Guid(f373d5a3945dd5749b120d45ac67f298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '082b611ef8e3fdebbf340bec67bb3509') in 0.0221889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Stairs_01.prefab
+  artifactKey: Guid(809355325d069f94e9b867e835297e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Ancient/Stairs_01.prefab using Guid(809355325d069f94e9b867e835297e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c14c93ffcf558fee377dbc55ff0bb7') in 0.0179898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.648882 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks
+  artifactKey: Guid(d87bb980725551846b96fc447a7cf1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks using Guid(d87bb980725551846b96fc447a7cf1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77121cba62ac36bd5de7d0ec91bbbcd1') in 0.0006197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069964 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_01.prefab
+  artifactKey: Guid(f3ae409407288f0419eeed98ee6a7a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_01.prefab using Guid(f3ae409407288f0419eeed98ee6a7a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3250e24568a41b68c4bb85232cb33740') in 0.0173065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_04.prefab
+  artifactKey: Guid(8537cf39f0b91e845a7a9465362c398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_04.prefab using Guid(8537cf39f0b91e845a7a9465362c398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283308269e9619062f7b41cdfc27c783') in 0.0207052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_07.prefab
+  artifactKey: Guid(ff005a7517f840741b994ea17cb11714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_07.prefab using Guid(ff005a7517f840741b994ea17cb11714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e951aabc0ce08846be3655b0aef31289') in 0.0187046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_10.prefab
+  artifactKey: Guid(fdeda8e25acec7a44814eaecee71d39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Cave_10.prefab using Guid(fdeda8e25acec7a44814eaecee71d39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05148ca9236a8a116be2050d56b077b4') in 0.0202583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_01.prefab
+  artifactKey: Guid(6763d573428a857438dc8bf6312ab048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_01.prefab using Guid(6763d573428a857438dc8bf6312ab048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c33980e29c43549bf6930f8532c55712') in 0.015765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_05.prefab
+  artifactKey: Guid(a6ce894ae18a6904aa34626cf0d60c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_05.prefab using Guid(a6ce894ae18a6904aa34626cf0d60c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd65fcde1a9745bff5825f6ac285e0d3') in 0.0187567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_08.prefab
+  artifactKey: Guid(a9295dfd447d6fa45bc1a2afb9e74b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_08.prefab using Guid(a9295dfd447d6fa45bc1a2afb9e74b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08f4fc50313aa9bc49c788c2eb78c995') in 0.0183515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_11.prefab
+  artifactKey: Guid(38e1b431de08aeb47aec763dd125d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_11.prefab using Guid(38e1b431de08aeb47aec763dd125d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '143c99e2450f9c62ab0f253280397140') in 0.0173036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_14.prefab
+  artifactKey: Guid(8a3b74bbe4a40044fa6fbc2ac2b22aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Rocks/Rock_14.prefab using Guid(8a3b74bbe4a40044fa6fbc2ac2b22aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5213a08294ed350cd21d7896f2f0ef4') in 0.0226558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.660975 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props
+  artifactKey: Guid(95238045d8629aa458d1ae39c7af3560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props using Guid(95238045d8629aa458d1ae39c7af3560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a24b1bea3d05769f6b065f01baf83c2f') in 0.0005663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065768 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Anchor.prefab
+  artifactKey: Guid(7b98fdf8cf5c57a4a974fa1bfdb94387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Anchor.prefab using Guid(7b98fdf8cf5c57a4a974fa1bfdb94387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '350fd690c8b2b4950fbbe343de7c29e3') in 0.0154136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Barrel_03.prefab
+  artifactKey: Guid(89eca6d0393e2e54b9f4c338aadb012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Barrel_03.prefab using Guid(89eca6d0393e2e54b9f4c338aadb012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a44c73cca8ed733ee167dac271ddf629') in 0.0170516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_02.prefab
+  artifactKey: Guid(2045eb1b1f00b594199324bc1a335852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_02.prefab using Guid(2045eb1b1f00b594199324bc1a335852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e9991ec99ff90d8912baed621a38f07') in 0.0178023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_05.prefab
+  artifactKey: Guid(eb800c2339f03374e874a5ab49a75406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_05.prefab using Guid(eb800c2339f03374e874a5ab49a75406) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad42a9853d93f5ac09722c4a78f264ab') in 0.0207349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_09.prefab
+  artifactKey: Guid(b80bf546d1092f0429ff84da9191ab3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_09.prefab using Guid(b80bf546d1092f0429ff84da9191ab3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '527a07a26a8847c774b297eea68a0cb6') in 0.0170128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_12.prefab
+  artifactKey: Guid(fde4ddeaad91fce4292c15ef8a92b610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_12.prefab using Guid(fde4ddeaad91fce4292c15ef8a92b610) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '122c42bbb3444bd4b63870840a74b6b1') in 0.0167183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_15.prefab
+  artifactKey: Guid(8d7bf40b470938d4a8b3adc00aa413e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_15.prefab using Guid(8d7bf40b470938d4a8b3adc00aa413e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'badffab5a93be286fcac35196c410549') in 0.017506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bucket_01.prefab
+  artifactKey: Guid(9e90fd927a0027149810cfd45bf43861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bucket_01.prefab using Guid(9e90fd927a0027149810cfd45bf43861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e68b27aacab17231eabca4546835922') in 0.0179658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Chair_01.prefab
+  artifactKey: Guid(8c9de0c9eb883be4d8751b13921c8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Chair_01.prefab using Guid(8c9de0c9eb883be4d8751b13921c8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6acb8dc8880cd8e4ae57cae10ead5e0f') in 0.018646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Chest_03.prefab
+  artifactKey: Guid(bfb45a3a869c398428d439d4ec2fea13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Chest_03.prefab using Guid(bfb45a3a869c398428d439d4ec2fea13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa837416a355526d7aa445a504b4f0f3') in 0.0194337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Coin_02.prefab
+  artifactKey: Guid(825a32ef282445644a20811c018a76f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Coin_02.prefab using Guid(825a32ef282445644a20811c018a76f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23ba7ca0a742216ddf83152285f0ce65') in 0.0173867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Crown_01.prefab
+  artifactKey: Guid(546a86767bdee7f4581fdd790b414597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Crown_01.prefab using Guid(546a86767bdee7f4581fdd790b414597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c12be430aa1be7b266cd90256e65cb21') in 0.0180937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Diamond_03.prefab
+  artifactKey: Guid(537f8193501002f498aed477be07e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Diamond_03.prefab using Guid(537f8193501002f498aed477be07e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '394d07d8a82e57be6aec01b845d3c3d5') in 0.0165535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fence_01.prefab
+  artifactKey: Guid(72eb985c16621654f89d68f38bf17779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fence_01.prefab using Guid(72eb985c16621654f89d68f38bf17779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2416ab500fb36a522f4afbb39e9ad656') in 0.0189478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fire_02.prefab
+  artifactKey: Guid(bc81ffad0d9f51c40b5bd01f62426f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fire_02.prefab using Guid(bc81ffad0d9f51c40b5bd01f62426f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd1a22eee9762e10adfc1236ffea4d58') in 0.0201731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_16.prefab
+  artifactKey: Guid(7cd875412c7e061459113c34c3186616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Bottle_16.prefab using Guid(7cd875412c7e061459113c34c3186616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6914ca0349a5d1b68ddb51a19c239a3') in 0.0175873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fish_02.prefab
+  artifactKey: Guid(4a9f671bc733178458ba35ba78e2a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Fish_02.prefab using Guid(4a9f671bc733178458ba35ba78e2a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b02dfd3e978c746346aa2828ff3abcf4') in 0.018873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/FishingRod_01.prefab
+  artifactKey: Guid(05fd0586c565a2d43980ca657a39d9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/FishingRod_01.prefab using Guid(05fd0586c565a2d43980ca657a39d9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b168004feb881e654dbad9a44d658f80') in 0.0189885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Grenade_04.prefab
+  artifactKey: Guid(6705e8e453a1cdc42b8c9cb5c5af0326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Grenade_04.prefab using Guid(6705e8e453a1cdc42b8c9cb5c5af0326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e85e70ab7affcaf7608a43bcf643afb1') in 0.0211628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/FishingRod_02.prefab
+  artifactKey: Guid(416581d2212219e4f99e5632555cbd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/FishingRod_02.prefab using Guid(416581d2212219e4f99e5632555cbd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f872639f29fa7c6d8bcc72fb0490c49a') in 0.0221537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Coin_03.prefab
+  artifactKey: Guid(0d700bbe786cb854e97fe0766a184d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Coin_03.prefab using Guid(0d700bbe786cb854e97fe0766a184d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebe020a5f388fe790949dd0cf715fd3d') in 0.0214774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.613735 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/House_03.prefab
+  artifactKey: Guid(9572ddf087d79ac428344c3f84592509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/House_03.prefab using Guid(9572ddf087d79ac428344c3f84592509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '108a17387d6761bcd99d5346014bbb5b') in 0.0212381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/HouseStairs_01.prefab
+  artifactKey: Guid(fcbc2d1f93d0ec64a89a56c80c54ddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/HouseStairs_01.prefab using Guid(fcbc2d1f93d0ec64a89a56c80c54ddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efc9de7f097c6526e624f68822962329') in 0.0203958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Mask_01.prefab
+  artifactKey: Guid(91e8492412455b9478a50ea87885b491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Mask_01.prefab using Guid(91e8492412455b9478a50ea87885b491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8975777b736d6b1018bb19ca613b2c73') in 0.0198232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Mask_05.prefab
+  artifactKey: Guid(8a933c0a44c9ec34fa94ca55abdbb815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Mask_05.prefab using Guid(8a933c0a44c9ec34fa94ca55abdbb815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1be64e4a68c27eed8b24d50d915a210') in 0.0264097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Pier_03.prefab
+  artifactKey: Guid(f8606cbcea03443469dbae73ec71c07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Pier_03.prefab using Guid(f8606cbcea03443469dbae73ec71c07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '567aeede8a51bf42fdd4c4f1dabaff75') in 0.0184701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006463 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/PirateSword_01.prefab
+  artifactKey: Guid(7c0b46eafbcda5043b12c533a7cf6dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/PirateSword_01.prefab using Guid(7c0b46eafbcda5043b12c533a7cf6dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75219c3115c350acb5903f08139f914f') in 0.0208408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Plank_03.prefab
+  artifactKey: Guid(180c75df86d3ae842b314c46909be126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Plank_03.prefab using Guid(180c75df86d3ae842b314c46909be126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bf9b9a02e5f48fa1a2475dc80084770') in 0.0175472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Ring_03.prefab
+  artifactKey: Guid(d007a6e140186294395f33393d18fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Ring_03.prefab using Guid(d007a6e140186294395f33393d18fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f56a602440b50a93acc1f7d3ccfe3ac5') in 0.0194996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Shield_01.prefab
+  artifactKey: Guid(f352e2ba94e8f7c45b961ce68c626bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Shield_01.prefab using Guid(f352e2ba94e8f7c45b961ce68c626bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b627d08ae20604250b599189f7bf5539') in 0.0181588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Ship_01.prefab
+  artifactKey: Guid(8e67e89e8b4a115429eecc02e6e908a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Ship_01.prefab using Guid(8e67e89e8b4a115429eecc02e6e908a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78a3615308e1fdc6b225595d23fd02cd') in 0.021716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053808 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/ShipPart_02.prefab
+  artifactKey: Guid(484078646e9bf274a9fa6b7510f8e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/ShipPart_02.prefab using Guid(484078646e9bf274a9fa6b7510f8e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3f1e1a123fae42ed786e60fea94acf3') in 0.0165906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Shovel_02.prefab
+  artifactKey: Guid(2cd8eeb35a970d442b66beea344e2461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Shovel_02.prefab using Guid(2cd8eeb35a970d442b66beea344e2461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47ce9c8dcde0b7e99682e99060a10058') in 0.0162078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Skull_01.prefab
+  artifactKey: Guid(92d3f817b2a86a045aec6c0c3c93f363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Skull_01.prefab using Guid(92d3f817b2a86a045aec6c0c3c93f363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ec1d30ae9daceab8950591635aa17cc') in 0.0160066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Telescope_01.prefab
+  artifactKey: Guid(173dbbceba9911243b52e076173f28d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Telescope_01.prefab using Guid(173dbbceba9911243b52e076173f28d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '160719fd55a85731d273c9f0bc3bf9bb') in 0.0221281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Tent_03.prefab
+  artifactKey: Guid(1c665e7eba69ca7438669ea7c19c5516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/Tent_03.prefab using Guid(1c665e7eba69ca7438669ea7c19c5516) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '601c50664871762030f64990b90d4ff7') in 0.0196939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002288 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/WoodenTorch_01.prefab
+  artifactKey: Guid(102984df04ff0e542af238c0f09791f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/WoodenTorch_01.prefab using Guid(102984df04ff0e542af238c0f09791f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e72fff3497592f1943ce38c52cd733e') in 0.0207179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/WoodStairs_02.prefab
+  artifactKey: Guid(d58ec1314e04a6b4b8bb98ad4aa2489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/Props/WoodStairs_02.prefab using Guid(d58ec1314e04a6b4b8bb98ad4aa2489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c112eeb42320b0c2b90e0332970dc51f') in 0.0190191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.879181 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX
+  artifactKey: Guid(99b5f485aa86afc48a3958a61e8dd7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX using Guid(99b5f485aa86afc48a3958a61e8dd7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36383e98037216165648ac02e4b8aa16') in 0.0005733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053524 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/CubeParticles_01.prefab
+  artifactKey: Guid(e677c554eaaee7048b3bc13fdf357791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/CubeParticles_01.prefab using Guid(e677c554eaaee7048b3bc13fdf357791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b231b207c0fae20a89595f639a0c56e') in 0.0117569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Fog_01.prefab
+  artifactKey: Guid(77e4559fdc30bd946b5e292291dc11fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Fog_01.prefab using Guid(77e4559fdc30bd946b5e292291dc11fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b8acf72188ffb456ce58c753208bda') in 0.0127408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Fog_03.prefab
+  artifactKey: Guid(0fd8fbb3c17e4da40898227d4d299810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Fog_03.prefab using Guid(0fd8fbb3c17e4da40898227d4d299810) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd831558f280cac77c8dee82364195a86') in 0.0107098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001727 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/GodRay_03.prefab
+  artifactKey: Guid(7b476bd2b13dc2047acf134b9ed9e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/GodRay_03.prefab using Guid(7b476bd2b13dc2047acf134b9ed9e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c81b1db9595ee2a53ec8d7da8cdf2725') in 0.0110331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/GodRay_05.prefab
+  artifactKey: Guid(8423deea003667d40bdc2876ac07e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/GodRay_05.prefab using Guid(8423deea003667d40bdc2876ac07e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7db6909d7530311d512d79eade7f475') in 0.012274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/GodRay_06.prefab
+  artifactKey: Guid(f62a822348c791a4aa1b8e8d4bd0c012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/GodRay_06.prefab using Guid(f62a822348c791a4aa1b8e8d4bd0c012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '805034886a6740f77a1e1a9d6f473bff') in 0.0156976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Water_02.prefab
+  artifactKey: Guid(d0f9477802a40104a89ba4ec3bab3cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Prefabs/FX/Water_02.prefab using Guid(d0f9477802a40104a89ba4ec3bab3cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a07287e4ce1e5662b8bf79bc7554d7a') in 0.0179157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.437184 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation
+  artifactKey: Guid(f3e36f0a8dae9664da4c8b266648e69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation using Guid(f3e36f0a8dae9664da4c8b266648e69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6df88546fb1a53e10c3820258f23180') in 0.0006379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053122 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Bamboo_01.fbx
+  artifactKey: Guid(f1d1a0d3448afe749bc5970043d4de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Bamboo_01.fbx using Guid(f1d1a0d3448afe749bc5970043d4de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3dfde7554311391945f832e667aa60a') in 0.1272507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Flower_02.fbx
+  artifactKey: Guid(96335e6af7d7df649a9efeb830eaf453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Flower_02.fbx using Guid(96335e6af7d7df649a9efeb830eaf453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16514e6fa93f01851ecc42f021a00c9f') in 0.0166877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Grass_01.fbx
+  artifactKey: Guid(c9aa0e7c98435a44390434b71b608d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Grass_01.fbx using Guid(c9aa0e7c98435a44390434b71b608d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2ed2088c7100c30d721d81aa99eea3c') in 0.0351687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/PondPlant_03.fbx
+  artifactKey: Guid(7b5171bbb65a0a24786022b2082db506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/PondPlant_03.fbx using Guid(7b5171bbb65a0a24786022b2082db506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a2a113d84d7cd7d048467b51b8429b3') in 0.0361888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Seaweed_04.fbx
+  artifactKey: Guid(555845cc637065e4f8dc7d9acf77dd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Seaweed_04.fbx using Guid(555845cc637065e4f8dc7d9acf77dd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '041ccc8ad821eca289a51c5dda16389e') in 0.0374842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Plant_06.fbx
+  artifactKey: Guid(5686e26212a66ba46b5257d363bae9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Plant_06.fbx using Guid(5686e26212a66ba46b5257d363bae9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '976990b82b7abcc5d2658e1166274ec4') in 0.0326679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_08.fbx
+  artifactKey: Guid(2b661f5118de4644c9b7af195872cdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_08.fbx using Guid(2b661f5118de4644c9b7af195872cdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7685ffe712d8222c41eb12b802960f92') in 0.0346222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Plant_02.fbx
+  artifactKey: Guid(aff0b6e769f9ca044aedf5690018dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Plant_02.fbx using Guid(aff0b6e769f9ca044aedf5690018dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64240f66e0aa592f09558ca87ab7c555') in 0.0410478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_09.fbx
+  artifactKey: Guid(d17d59b044b79e045ab366a1b552c0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_09.fbx using Guid(d17d59b044b79e045ab366a1b552c0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f749e4c9ae05e97b8d7e916959ae8bc4') in 0.0405992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Starfish_01.fbx
+  artifactKey: Guid(961cd214e1456c243abe702024b86838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Starfish_01.fbx using Guid(961cd214e1456c243abe702024b86838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35b2b680e99b953abe5ffa640bea5741') in 0.0385902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_05.fbx
+  artifactKey: Guid(dba510a181a0a574d89e743fcad26fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/CoralReef_05.fbx using Guid(dba510a181a0a574d89e743fcad26fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e9ddc34858f94f14b12f238386057d') in 0.0375871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Plant_01.fbx
+  artifactKey: Guid(45d0ac85403aaf24a8742e3af1488a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Plant_01.fbx using Guid(45d0ac85403aaf24a8742e3af1488a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '158beb299cd01044c9f01a1b025b487d') in 0.0359148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Seaweed_02.fbx
+  artifactKey: Guid(3dba0c526a595b24a8f566d1da50cc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Seaweed_02.fbx using Guid(3dba0c526a595b24a8f566d1da50cc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '311e6c59041f9ba360433de5560b3617') in 0.0342072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Plant_03.fbx
+  artifactKey: Guid(a01f616d6056a8a45ad0735c177590a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Models/Vegetation/Plant_03.fbx using Guid(a01f616d6056a8a45ad0735c177590a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0204d604516055c2f32da53938aa4b3') in 0.0393228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
