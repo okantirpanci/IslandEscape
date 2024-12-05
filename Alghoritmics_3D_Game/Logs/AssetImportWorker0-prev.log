@@ -1,29 +1,29 @@
 Using pre-set license
 Built from 'trunk' branch; Version is '6000.0.12f1 (7defd84cdab8) revision 8253400'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16124 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16307 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\6000.0.12f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.12f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/fcaka/Downloads/IslandEscape-Okan/Alghoritmics_3D_Game
+C:/Users/fcaka/Desktop/Github/IslandEscape/Alghoritmics_3D_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64923
+50666
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/fcaka/Downloads/IslandEscape-Okan/Alghoritmics_3D_Game
-C:/Users/fcaka/Downloads/IslandEscape-Okan/Alghoritmics_3D_Game
+Successfully changed project path to: C:/Users/fcaka/Desktop/Github/IslandEscape/Alghoritmics_3D_Game
+C:/Users/fcaka/Desktop/Github/IslandEscape/Alghoritmics_3D_Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,68 +59,70 @@ C:/Users/fcaka/Downloads/IslandEscape-Okan/Alghoritmics_3D_Game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2812]  Target information:
+Player connection [11544]  Target information:
 
-Player connection [2812]  * "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2209283968 [EditorId] 2209283968 [Version] 1048832 [Id] WindowsEditor(7,FURKAN-BOOK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11544]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3530388216 [EditorId] 3530388216 [Version] 1048832 [Id] WindowsEditor(7,Furkan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2812] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2812] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [11544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Library Redirect Path: Library/
-[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-Refreshing native plugins compatible for Editor in 5.05 ms, found 3 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.12f1 (7defd84cdab8)
-[Subsystems] Discovering subsystems at path C:/Program Files/6000.0.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/fcaka/Downloads/IslandEscape-Okan/Alghoritmics_3D_Game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fcaka/Desktop/Github/IslandEscape/Alghoritmics_3D_Game/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:   Intel
-    VRAM:     8062 MB
-    Driver:   31.0.101.4502
+    Renderer: AMD Radeon RX 6700 (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     10169 MB
+    Driver:   32.0.12019.1028
 Initialize mono
-Mono path[0] = 'C:/Program Files/6000.0.12f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/6000.0.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/6000.0.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/6000.0.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004531 seconds.
-- Loaded All Assemblies, in  0.734 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004440 seconds.
+- Loaded All Assemblies, in  0.403 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.858 seconds
-Domain Reload Profiling: 1589ms
-	BeginReloadAssembly (303ms)
+- Finished resetting the current domain, in  0.385 seconds
+Domain Reload Profiling: 785ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (244ms)
-		LoadAssemblies (299ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (238ms)
-				TypeCache.ScanAssembly (221ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (137ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (858ms)
+	FinalizeReload (386ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (810ms)
+		SetupLoadedEditorAssemblies (347ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (334ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -129,66 +131,286 @@ Domain Reload Profiling: 1589ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.606 seconds
-Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.942 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.078 seconds
-Domain Reload Profiling: 7670ms
-	BeginReloadAssembly (688ms)
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1854ms
+	BeginReloadAssembly (366ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (429ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (93ms)
-	LoadAllAssembliesAndSetupDomain (1347ms)
-		LoadAssemblies (880ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (345ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (668ms)
-			TypeCache.Refresh (446ms)
-				TypeCache.ScanAssembly (410ms)
-			BuildScriptInfoCaches (177ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (5079ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (919ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4060ms)
+		SetupLoadedEditorAssemblies (688ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (1038ms)
-			ProcessInitializeOnLoadAttributes (2277ms)
-			ProcessInitializeOnLoadMethodAttributes (702ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 2.21 seconds
-Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 300 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6212 unused Assets / (7.6 MB). Loaded Objects now: 7038.
-Memory consumption went from 208.6 MB to 201.0 MB.
-Total: 30.212300 ms (FindLiveObjects: 3.230000 ms CreateObjectMapping: 1.365600 ms MarkObjects: 16.729500 ms  DeleteObjects: 8.883700 ms)
+Unloading 298 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6212 unused Assets / (8.2 MB). Loaded Objects now: 7032.
+Memory consumption went from 208.7 MB to 200.4 MB.
+Total: 9.322500 ms (FindLiveObjects: 0.651800 ms CreateObjectMapping: 0.872500 ms MarkObjects: 4.863900 ms  DeleteObjects: 2.933700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 180103.376506 seconds.
-  path: Assets/IslandEscape/Scripts/PlayerController.cs
-  artifactKey: Guid(7c7eb833232652a42b72cbb651f1fada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IslandEscape/Scripts/PlayerController.cs using Guid(7c7eb833232652a42b72cbb651f1fada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: 'debae818daffb86e0d9dbaa284d017e4') in 0.0199474 seconds
+  Time since last request: 1113.870206 seconds.
+  path: Assets/IslandEscape
+  artifactKey: Guid(2bafc663ccabda74b993a16b9b49501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape using Guid(2bafc663ccabda74b993a16b9b49501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '6877e957c12b37f7cc805a0721203295') in 0.0042813 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 135.705186 seconds.
-  path: Assets/IslandEscape/Scripts/InventorySlot.cs
-  artifactKey: Guid(214948c5e9007429181c88832758e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IslandEscape/Scripts/InventorySlot.cs using Guid(214948c5e9007429181c88832758e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: '3f3f04844080bb7b2073db62d114b2e9') in 0.001106 seconds
+  Time since last request: 1.364665 seconds.
+  path: Assets/IslandEscape/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ae1af5c61b2fd4bcacfc65f55f013a75') in 0.0004617 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.549281 seconds.
+  path: Assets/IslandEscape/Scenes/TropicalEnvironment_Demo.unity
+  artifactKey: Guid(81a2028566be994479674a2ff3c0593a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/Scenes/TropicalEnvironment_Demo.unity using Guid(81a2028566be994479674a2ff3c0593a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '91e2b2f8f8e4fc402799b800ae556fc1') in 0.0006724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.026046 seconds.
+  path: Assets/IslandEscape/Scenes/IslandLevel.unity
+  artifactKey: Guid(81a2028566be994479674a2ff3c0593a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/Scenes/IslandLevel.unity using Guid(81a2028566be994479674a2ff3c0593a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '3c13a52b3628725eb4e80a7f128f8c71') in 0.0012654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6201 unused Assets / (8.1 MB). Loaded Objects now: 7034.
+Memory consumption went from 161.5 MB to 153.4 MB.
+Total: 9.209600 ms (FindLiveObjects: 0.672200 ms CreateObjectMapping: 0.758300 ms MarkObjects: 4.839000 ms  DeleteObjects: 2.939300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.415940 seconds.
+  path: Assets/IslandEscape/BounceForce.physicMaterial
+  artifactKey: Guid(296208bf84ff4fa4e86ad9df80437b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/BounceForce.physicMaterial using Guid(296208bf84ff4fa4e86ad9df80437b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'de3db5ce05f8581fdce63eb65332d442') in 0.0163982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.700 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.854 seconds
+Domain Reload Profiling: 1553ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (855ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (586ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6208 unused Assets / (8.3 MB). Loaded Objects now: 7044.
+Memory consumption went from 175.1 MB to 166.8 MB.
+Total: 9.390000 ms (FindLiveObjects: 0.722300 ms CreateObjectMapping: 0.871200 ms MarkObjects: 4.676400 ms  DeleteObjects: 3.119100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.191001 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment
+  artifactKey: Guid(2dc1536c76e479b408a21875f99ea4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment using Guid(2dc1536c76e479b408a21875f99ea4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '953e310328968ad52348762f55bc3686') in 0.0014794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.874005 seconds.
+  path: Assets/IslandEscape/TropicalEnvironment/Animations
+  artifactKey: Guid(fb71c5afb069100488811f6e926ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/TropicalEnvironment/Animations using Guid(fb71c5afb069100488811f6e926ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '14c3491935c73d08f5dd0f68bf2893a6') in 0.0006608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.294410 seconds.
+  path: Assets/IslandEscape/Animations
+  artifactKey: Guid(bad5a9464ca664d4f8b87221dff5c0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/Animations using Guid(bad5a9464ca664d4f8b87221dff5c0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8ddd339be322acd98f586b6691032eda') in 0.0006792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.996097 seconds.
+  path: Assets/IslandEscape/Icons
+  artifactKey: Guid(6e8eee716d1242747bb20a81255230a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IslandEscape/Icons using Guid(6e8eee716d1242747bb20a81255230a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'c3b9ae775926653fa26d2d644602ac73') in 0.0006521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.051663 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5e3f70f0364ded6a0e35bba7f5564b43') in 0.0162163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.606489 seconds.
+  path: Assets/WizardPolyArt
+  artifactKey: Guid(07756a64f8f3598479a9b9d89f4baea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt using Guid(07756a64f8f3598479a9b9d89f4baea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8d7317de750a38ae1c813dc3ff5e2342') in 0.0006469 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.175869 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '0071cc214c7aa6e6ff730080dacceb93') in 0.0007051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.521949 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f4ace71d33a87724081566e030c3d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f4ace71d33a87724081566e030c3d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '61d3960d84c785a8c25a5b026605b467') in 0.0008064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.360665 seconds.
+  path: Assets/Rewards
+  artifactKey: Guid(a5cb1f8665ee6404fbef3404257b3798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rewards using Guid(a5cb1f8665ee6404fbef3404257b3798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'df1008f7add720ccaa10ca9b4a8ff57c') in 0.0006653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005769 seconds.
+  path: Assets/Rewards/InventorySlot.prefab
+  artifactKey: Guid(01a685e34887a4b408a72f401fec6200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rewards/InventorySlot.prefab using Guid(01a685e34887a4b408a72f401fec6200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '01963f73e8c8d215127a0a264767bd35') in 0.0229827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.601281 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(cce9fa8bc53c34114aaefd75e073d5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(cce9fa8bc53c34114aaefd75e073d5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '5e64d631d0ede07fbad789dc9792391f') in 0.0010607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031234 seconds.
+  path: Assets/Prefabs/Anchor.prefab
+  artifactKey: Guid(68b5d3e2cc107f64bb7b8534a8f1c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Anchor.prefab using Guid(68b5d3e2cc107f64bb7b8534a8f1c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '58037bde66f95001908296f9b11da74c') in 3.2046247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Ship_01.prefab
+  artifactKey: Guid(1bf6f7132322eac41bea2ee67406150e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ship_01.prefab using Guid(1bf6f7132322eac41bea2ee67406150e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '78ae3c790819e00e39f61c29f5b66ee4') in 0.0221061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.302417 seconds.
+  path: Assets/Icons/Barrel_03Icon.png
+  artifactKey: Guid(bcfaa45c7bc4f4198b46225eca3e128d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Barrel_03Icon.png using Guid(bcfaa45c7bc4f4198b46225eca3e128d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a3e88126eacbdf518ac2b14dc6f9d673') in 0.0352186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

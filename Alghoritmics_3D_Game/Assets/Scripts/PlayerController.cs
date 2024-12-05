@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private float xRotation = 0f;
     private bool isBouncing = false; // Trambolinden zıplama durumu
+    public Animator axeAnimation;
+    public static int hit = 0;
 
     private void Start()
     {
@@ -39,6 +41,25 @@ public class PlayerController : MonoBehaviour
         HandleMovement();  // Oyuncu hareketi
         HandleJump();      // Oyuncu zıplaması
         HandleCamera();    // Kamera kontrolü
+        PlayAnimation();
+    }
+    public void PlayAnimation()
+    {
+        if (Input.GetMouseButtonDown(0)) // Sol fare tuşu basılıysa
+        {
+            axeAnimation.SetBool("IsSwinging", true);
+            hit++;
+            if (hit == 4) 
+            { 
+                hit = 0;
+            }               
+            Debug.Log(hit+"PlayerController");
+        }
+        else // Sol fare tuşu basılı değilse
+        {
+            axeAnimation.SetBool("IsSwinging", false);
+        }
+
     }
 
     private void HandleTaskPanel()
