@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private bool isTaskPanelOpen = false;
 
     private Rigidbody rb;
+    public Animator axe_Anim;
     private bool isGrounded;
     private float xRotation = 0f;
     private bool isBouncing = false; // Trambolinden zıplama durumu
@@ -39,6 +41,8 @@ public class PlayerController : MonoBehaviour
         HandleMovement();  // Oyuncu hareketi
         HandleJump();      // Oyuncu zıplaması
         HandleCamera();    // Kamera kontrolü
+        HandleAxe();
+
     }
 
     private void HandleTaskPanel()
@@ -48,6 +52,13 @@ public class PlayerController : MonoBehaviour
             isTaskPanelOpen = !isTaskPanelOpen;
             taskPanel.SetActive(isTaskPanelOpen);
             LockCursor(!isTaskPanelOpen);
+        }
+    }
+    private void HandleAxe()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            axe_Anim.SetTrigger("axe");          
         }
     }
 

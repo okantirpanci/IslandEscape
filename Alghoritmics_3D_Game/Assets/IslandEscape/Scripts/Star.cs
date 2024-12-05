@@ -6,7 +6,7 @@ public class Star : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Axe"))
         {
             FindObjectOfType<TaskManager>().CollectStar(taskIndex);
             Destroy(gameObject); // Yıldızı yok et
