@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a70e07166e86ab44facbee427c79f4d6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205692
+  packageName: Low Poly Tropical Island
+  packageVersion: 1.05
+  assetPath: Assets/TropicalEnvironment/Terrain/TerrainLayer/Sand_02.terrainlayer
+  uploadId: 702368

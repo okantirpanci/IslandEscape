@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7634815d210032845ae61bf1544dfc43
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205692
+  packageName: Low Poly Tropical Island
+  packageVersion: 1.05
+  assetPath: Assets/TropicalEnvironment/Scenes/Settings/TropicalEnvironment_OverviewSettings.lighting
+  uploadId: 702368

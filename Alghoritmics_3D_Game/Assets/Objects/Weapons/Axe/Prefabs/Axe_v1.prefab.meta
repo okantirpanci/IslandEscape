@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58ff9614239dedc40bfb5eecc596d16f
+timeCreated: 1471700446
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 66256
+  packageName: The Axe
+  packageVersion: 1.0
+  assetPath: Assets/Objects/Weapons/Axe/Prefabs/Axe_v1.prefab
+  uploadId: 133323
