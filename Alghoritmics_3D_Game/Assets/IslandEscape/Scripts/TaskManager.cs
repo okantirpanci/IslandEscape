@@ -47,9 +47,4 @@ public class TaskManager : MonoBehaviour
             Debug.Log($"Görev zaten tamamlanmış veya yıldız sayısı maksimum: {task.taskName}");
         }
     }
-
-
-
-
-
 }
